@@ -16,7 +16,7 @@ header {
 .banner-container {
     display: flex;
     width: 75%;
-   
+
     margin: 0 auto;
     align-items: center;
     gap: 97px;
@@ -55,7 +55,73 @@ header {
     font-weight: 700;
 }
 
-.banner-container .banner-img img{
+.banner-container .banner-img img {
     width: 100%;
     vertical-align: middle;
 }
+
+/* feature styles */
+
+.feature {}
+
+.feature-container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.feature-text {
+    text-align: center;
+
+
+}
+
+.feature-text .feature-heading {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-text .feature-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.feature-content {
+    display: flex;
+    padding: 0 240px;
+    justify-content: space-between;
+    align-items: end;
+    
+    gap: 30px;
+
+
+
+}
+
+.feature-content .flowers .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    background-color: #E55473;
+    padding: 30px 25px 0;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    
+    
+
+}
+.feature-content .flowers .flower-img img{
+    width: 100%;
+    
+}
+.feature-content .flowers .flower-img {  
+    align-items: center;
+}
+------------------
+
